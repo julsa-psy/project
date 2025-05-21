@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: ghcr.io/julsa-psy/project:main
+  REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
